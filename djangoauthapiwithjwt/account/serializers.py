@@ -4,7 +4,7 @@ from rest_framework.serializers import ValidationError
 from django.utils.encoding import smart_str,force_bytes,DjangoUnicodeDecodeError
 from django.utils.http import urlsafe_base64_decode,urlsafe_base64_encode
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
-from utils import Util
+# from utils import Util
 class UserRegistrationSerializer(serializers.ModelSerializer):
     #we are writing this beacuse we need to confitm password field in our registration Request
 
