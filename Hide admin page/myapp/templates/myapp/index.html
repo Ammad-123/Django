@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333333;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #007bff;
+            margin: 10px;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        br {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the Homepage</h1>
+    <a href="{% url 'register' %}">Register Here</a>
+    <br> <br>
+    <a href="{% url 'login' %}">Login Here</a>
+</body>
+</html>
